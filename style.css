@@ -130,7 +130,10 @@
   font-size: 16px;
   cursor: pointer;
 }
-
+.Discover:hover {
+  border-color: #9c9ead;
+  background-color: #4d5055;
+}
 .Contact {
   padding: 15px 25px;
   background: none;
@@ -140,6 +143,9 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+.Contact:hover {
+  color: #9c9ead;
 }
 
 .personal-info {
@@ -642,13 +648,14 @@
 .Question h2 {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 30px;
+  color: #24262a;
+  margin-bottom: 45px;
   text-align: center;
 }
 
 .frequent-item {
   margin-bottom: 25px;
-  border-bottom: 1px solid #eee;
+
   padding-bottom: 15px;
 }
 
@@ -656,21 +663,118 @@
   position: relative;
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
+  padding-left: 60px;
   cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.frequent-item h3:hover {
-  color: #007acc;
 }
 
 .frequent-item p {
   font-size: 16px;
   color: #444;
   margin-top: 10px;
+  line-height: 30px;
   display: none;
 }
 
 .frequent-item:hover p {
   display: block;
+  padding: 10px 55px 10px;
+}
+/* Contact Details */
+.Contact-section {
+  text-align: center;
+  background-color: #f9f7fb;
+  margin-top: 100px;
+  padding: 60px 20px;
+}
+
+.Contact-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #24262a;
+  line-height: 1.3;
+}
+
+.Contact-section p {
+  font-size: 16px;
+  color: #4d5055;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  max-width: 700px;
+  margin: 15px auto 50px auto;
+  line-height: 1.6;
+}
+
+.Contact-section a {
+  color: #2259ec;
+  text-decoration: none;
+}
+
+.Contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 720px;
+  width: 100%;
+}
+
+.Contact-section input[type="text"],
+.Contact-section input[type="email"],
+.Contact-section textarea {
+  width: 100%;
+  max-width: 700px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.Contact-section textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+.Contact-section button {
+  background-color: #0b36a8;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  width: 90%;
+  padding: 15px;
+  border-radius: 50px;
+}
+.Contact-section button:hover {
+  background-color: white;
+  color: #24262a;
+}
+.footer {
+  background-color: #24262a;
+
+  text-align: center;
+
+  padding: 100px;
+}
+.footer-content p {
+  padding-top: 20px;
+  font-weight: 400;
+  color: #4d5055;
+}
+.social-icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  border: 10x solid #0b36a8;
+  background-color: #0b36a8;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  transition: color 0.3s ease;
+}
+.social-icons i:hover {
+  background-color: white;
+  color: #0b36a8;
+  cursor: pointer;
 }
