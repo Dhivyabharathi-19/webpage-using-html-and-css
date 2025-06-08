@@ -296,6 +296,11 @@ button {
   padding: 10px 30px;
   cursor: pointer;
 }
+button:hover {
+  background-color: white;
+  color: #0b36a8;
+  border: 1px solid #0b36a8;
+}
 
 .footer {
   background-color: #24262a;
